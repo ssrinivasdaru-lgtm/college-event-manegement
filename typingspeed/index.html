@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=400" alt="Typing Keyboard" class="dashboard-image">
+        <h1>Typing Speed Test</h1>
+        <div class="stats">
+            <div class="stat">
+                <span id="wpm">0</span>
+                <p>WPM</p>
+            </div>
+            <div class="stat">
+                <span id="accuracy">100</span>
+                <p>Accuracy</p>
+            </div>
+            <div class="stat">
+                <span id="time">60</span>
+                <p>Time Left</p>
+            </div>
+        </div>
+        <div class="text-container">
+            <p id="text">The quick brown fox jumps over the lazy dog. This is a sample text for typing speed test. Practice makes perfect.</p>
+        </div>
+        <textarea id="input" placeholder="Start typing here..."></textarea>
+        <div class="buttons">
+            <button id="start">Start Test</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
